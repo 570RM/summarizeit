@@ -5,7 +5,12 @@
 
 Welcome to **SummarizeIT**! ✨ This advanced AI-powered tool is designed to convert lengthy articles, research papers, and documents into concise, easy-to-read summaries. 📚 Whether you're a student, researcher, or professional, SummarizeIT offers a streamlined approach to extracting the core ideas from extensive texts, allowing you to stay informed and efficient. 🚀
 
-**Project Overview:** Developed as part of Postman’s Project-Based Learning initiative, [**"Build an AI Text Summarizer app"**](https://academy.postman.com/project-ai-text-summarizer) , this project is designed with a modern user interface featuring neumorphism-inspired design principles. 🎨 It leverages the Hugging Face Inference API to integrate Facebook’s [**“bart-large-cnn”**](https://huggingface.co/facebook/bart-large-cnn) model, a solution for text summarization. 🧠 This project demonstrates not only the integration of real-world APIs through Postman but also the automation of API-driven code generation, enhancing both development efficiency and application functionality. 💻
+## **Project Overview**
+
+- Developed as part of Postman’s Project-Based Learning initiative, [**"Build an AI Text Summarizer app"**](https://academy.postman.com/project-ai-text-summarizer).
+- Designed with a modern user interface featuring neumorphism-inspired design principles. 🎨
+- Leverages the Hugging Face Inference API to integrate Facebook’s [**“bart-large-cnn”**](https://huggingface.co/facebook/bart-large-cnn) model for text summarization. 🧠
+- Demonstrates the integration of real-world APIs through Postman.
 
 </div>
 
