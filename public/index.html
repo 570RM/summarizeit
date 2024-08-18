@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SummarizeIT</div>
+        <div class="checkbox-wrapper-25">
+            <label for="custom-toggle" class="toggle-label">Home</label>
+            <input type="checkbox" id="custom-toggle">
+            <label for="custom-toggle" class="toggle-label">About</label>
+        </div>
+    </nav>
+    <main>
+        <section class="intro">
+            <p>Simply paste your text into the text area below and click the "Summarize" button.</p>
+        </section>
+        <section class="summarize-tool">
+            <div class="container">
+                <div class="text-box">
+                    <textarea id="text_to_summarize" name="text_to_summarize"
+                        placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)"
+                        maxlength="100000"></textarea>
+                    <button id="submit-button" class="submit-button">
+                        <span class="submit-button-text">Summarize</span>
+                    </button>
+                </div>
+                <div class="text-box">
+                    <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section>
+    </br>
+    </section>
+    <section id="about-section" class="about hidden">
+        <div class="container">
+            <p class="about-text">            
+                <strong>📚 About SummarizeIT :</strong> SummarizeIT is a powerful AI-driven tool designed to transform lengthy articles, research papers, and documents into concise, easy-to-digest summaries 📄✨. Whether you’re a student, researcher, or busy professional, SummarizeIT is your go-to solution for quickly capturing the essence of any text, helping you stay informed and efficient 🚀. 
+                <br><br> 
+                <strong>🔥 Project Overview :</strong> Developed as part of Postman’s Project-Based Learning initiative, <a href="https://academy.postman.com/project-ai-text-summarizer" target="_blank">"Build an AI Text Summarizer app".</a> Later the user interface is optimized with neumorphism UI, offering a sleek and modern visual experience 🎨🔍. It utilizes the Hugging Face Inference API to access Facebook’s <a href="https://huggingface.co/facebook/bart-large-cnn" target="_blank">“bart-large-cnn”</a> model, a leading tool for text summarization 🤖📚. This API integration, coupled with Postman's powerful features, enables seamless code generation, making it easier to bring AI capabilities into your applications.
+                <br><br> 
+                <strong>👩🏻‍💻 Technical Highlights : </strong>Built with a robust tech stack, including HTML, CSS, JavaScript, Express.js and Node.js 💻. The project not only integrates real-world APIs through Postman 🌐 but also showcases the process of API integration and code generation, enhancing both efficiency and development speed. More info
+                <a href="https://github.com/570RM" target="_blank">here.
+                    <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="GitHub logo" style="width: 20px; height: 20px;">
+                </a>
+            </p>
+        </div>        
+    </section>
+    <footer>
+        <div class="footer-content">
+            <a href="https://github.com/570RM/" target="_blank">
+                <button class="btn">
+                    <svg width="80" height="30" fill="#0092E4" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="github">
+                        <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path>
+                    </svg>
+                </button>
+            </a>
+            <a href="mailto:bhagattusharr@gmail.com?subject=Regarding%20AI%20Summarizer%20App&body=Hello%20there!">           
+                <button class="btn">
+                    <svg width="80" height="30" fill="#D44638" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="gmail">
+                        <path d="M20.8 3H3.2A2.2 2.2 0 0 0 1 5.2v13.6A2.2 2.2 0 0 0 3.2 21h17.6a2.2 2.2 0 0 0 2.2-2.2V5.2A2.2 2.2 0 0 0 20.8 3zm0 2v.511l-8.5 5.942L3.2 5.511V5h17.6zM3.2 19V7.289l8.5 5.941 8.5-5.941V19H3.2z"></path>
+                    </svg>
+                </button>
+            </a>
+            <a href="https://www.postman.com/" target="_blank">
+                <button class="btn">
+                    <img src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Postman Logo" width="80" height="30" />
+                </button>   
+            </a>                  
+        </div>
+        <section>
+            <h5>Made with ❤️ by Tushar</h5>
+            <p>© 2024 SummarizeIT. All rights reserved.</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
